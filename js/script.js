@@ -39,3 +39,7 @@ if(trovataEmail == true) {
 } else {
     alert('Non puoi accedere');
 }
+
+// NOTA 1)In bonus ho fatto chiedere anche la password,
+// in extra ho messo la risposta nell'output colorato diversamente a seconda dell'esito
+// NOTA 2) il for poteva essere evitato facendo if (listaEmail.indexOf(emailUtente) !== -1 )
