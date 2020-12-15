@@ -54,3 +54,8 @@ function arraysEqual(a, b) {
   }
   return true;
 }
+
+// questo è un metodo più semplice di confrontare due array
+// conscio del fatto che sto confrontando due stringhe
+
+// JSON.stringify(arrayA) === JSON.stringify(arrayB)
