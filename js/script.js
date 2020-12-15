@@ -3,7 +3,6 @@ var emailUtente = prompt('Inserisci la tua email');
 // dichiaro una lista di email salvate nel database;
 var listaEmail = ['fabio@gmail.com', 'ottavio@gmail.com', 'alfredo@gmail.com'];
 // dichiaro variabile per sapere se ho trovato o no la email dell'utente
-// potevo anche evitare,vabbé
 var trovataEmail = false;
 
 for (var i = 0; (i < listaEmail.length) && (trovataEmail == false); i++) {
