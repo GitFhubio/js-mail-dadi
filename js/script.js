@@ -5,7 +5,7 @@ var listaEmail = ['fabio@gmail.com', 'ottavio@gmail.com', 'alfredo@gmail.com'];
 // dichiaro variabile per sapere se ho trovato o no la email dell'utente
 var trovataEmail = false;
 
-for (var i = 0; (i < listaEmail.length) && (trovataEmail == false); i++) {
+for (var i = 0; i < listaEmail.length; i++) {
     var emailCorrente = listaEmail[i];
 
     if(emailUtente == emailCorrente) {
@@ -13,7 +13,7 @@ for (var i = 0; (i < listaEmail.length) && (trovataEmail == false); i++) {
     }
 }
 
-if(trovataEmail == true) {
+if(trovataEmail) {
 
 // Gioco Dadi
     var numeroUtente = parseInt(prompt('Ok sei in lista:puoi giocare. Inserisci un numero tra 1 e 6'));
